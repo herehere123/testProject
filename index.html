@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto teste</title>
 </head>
 <body>
-    <form id="form">
-        <label>Usuário</label>
-        <input type="text" id="usuario" required>
-        <label>Senha</label>
-        <input type="password" id="password" required>
-        <button onclick="Enviar()">Enviar</button>
-    </form>
+    <div class="titulo">
+        <h1>Área de Login</h1>
+    </div>
+    <div class="container">
+        <form id="form">
+            <div class="login">
+                <label class = "usuario">Usuário</label>
+                <input type="text" id="usuario" required>
+                <label class="senha">Senha</label>
+                <input type="password" id="password" required>
+            </div>
+            <button onclick="Enviar()">Enviar</button>
+        </div>
+        </form>
     <script src="script.js"></script>
 </body>
 </html>
